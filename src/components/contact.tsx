@@ -67,7 +67,7 @@ const Contact = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-3xl p-10 border border-gray-200 shadow-lg flex flex-col gap-8" // Increased padding and shadow
+              className="bg-white rounded-3xl p-10 border border-gray-200 shadow-lg flex flex-col gap-4" // Increased padding and shadow
             >
               <div className="flex items-start gap-5">
                 {" "}
@@ -80,11 +80,11 @@ const Contact = () => {
                     {" "}
                     {/* Improved list spacing */}
                     <a
-                      href="tel:+218917165376"
+                      href="tel:+218914321413"
                       dir="ltr"
                       className="text-gray-700 hover:text-blue-600 transition font-medium underline"
                     >
-                      +218 91 716 5376
+                      +218 91 432 1413
                     </a>
                   </div>
                 </div>
@@ -107,7 +107,9 @@ const Contact = () => {
                 <MapPin className="w-7 h-7 text-blue-600 shrink-0 mt-1" />
                 <div className="flex flex-col gap-1">
                   <h4 className="text-xl font-bold mb-1">العنوان</h4>
-                  <p className="text-gray-700 font-medium">مصراته - ليبيا</p>
+                  <p className="text-gray-700 font-medium">
+                    محلات النادي الأهلي - مصراته | ليبيا
+                  </p>
                 </div>
               </div>
             </motion.div>
@@ -121,7 +123,7 @@ const Contact = () => {
               className="rounded-3xl overflow-hidden border border-gray-200 shadow-sm h-[350px]"
             >
               <iframe
-                src="https://maps.google.com/maps?q=32.36328361560885,15.099304997841584&z=15&output=embed"
+                src="https://maps.google.com/maps?q=32.37910081262098,15.14757514853538&z=15&output=embed"
                 className="w-full h-full"
                 loading="lazy"
               ></iframe>

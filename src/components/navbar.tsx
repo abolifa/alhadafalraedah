@@ -77,7 +77,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://wa.me/218917165376"
+            href="https://wa.me/218914321413"
             target="_blank"
             rel="noopener noreferrer"
             className={`flex items-center justify-center w-9 h-9 rounded-full border transition ${

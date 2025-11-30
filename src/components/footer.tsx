@@ -48,11 +48,11 @@ const Footer = () => {
           <div className="flex items-center gap-3 group">
             <Phone className="w-6 h-6 text-[#d4af37] transition group-hover:scale-110" />
             <a
-              href="tel:+218917165376"
+              href="tel:+218914321413"
               dir="ltr"
               className="text-gray-300 text-sm transition group-hover:text-white"
             >
-              +218 91 716 5376
+              +218 91 432 1413
             </a>
           </div>
 
@@ -69,7 +69,7 @@ const Footer = () => {
           <div className="flex items-start gap-3 group">
             <MapPin className="w-6 h-6 text-[#d4af37] mt-1 transition group-hover:scale-110" />
             <p className="text-gray-300 text-sm transition group-hover:text-white">
-              مصراتة - ليبيا
+              محلات النادي الأهلي - مصراتة | ليبيا
             </p>
           </div>
         </motion.div>
